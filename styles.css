@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  margin: 5px 10px 5px 10px;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+.button {
+  margin: 5px;
+  background-color: #f8f9fa;
+  border: 0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 1px 1px #dddddd;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  margin: 10px;
+  padding: auto;
+  float: left;
+}
+
+.right {
+  margin: 10px;
+  padding: auto;
+  float: right;
+}
+
+.center-search {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 35%;
+  bottom: 50%;;
+  transform: translate(-50%, -50%);
+}
+
+.searchbar {
+  border-radius: 50px;
+  border-width: 1px;
+  height: 38px;
+  width: 450px;
+  margin: 20px;
+}
+
+.searchbar:hover {
+  box-shadow: 0px 0px 2px 2px #dddddd;
+}
+
+footer {
+  background-color: #eeeeee;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
